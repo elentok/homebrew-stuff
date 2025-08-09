@@ -2,7 +2,7 @@
 cask "dff" do
   desc "Prettifier for the `df` (diskfree) command in Go."
   homepage "https://github.com/elentok/dff/"
-  version "0.0.8"
+  version "0.1.1"
 
   livecheck do
     skip "Auto-generated on release."
@@ -12,71 +12,71 @@ cask "dff" do
 
   on_macos do
     on_intel do
-      url "https://github.com/elentok/dff/releases/download/v0.0.8/dff_Darwin_x86_64.tar.gz",
+      url "https://github.com/elentok/dff/releases/download/v0.1.1/dff_Darwin_x86_64.tar.gz",
         using: :homebrew_curl,
         cookies: {
           "license" => "accept-backup",
         },
         header: [
-          "X-Version: 0.0.8",
+          "X-Version: 0.1.1",
         ],
         user_agent: "MyApp/1.0 (macOS)",
         data: {
           "format" => "dmg",
           "platform" => "mac",
         }
-      sha256 "fb69f145d2a176368a15b81227cfd7c560179a9760f5dbb2e4cce39ed597fc63"
+      sha256 "0a25b011378bddf294340e174b7be81186088abe4be389db256cf04c5866980e"
     end
     on_arm do
-      url "https://github.com/elentok/dff/releases/download/v0.0.8/dff_Darwin_arm64.tar.gz",
+      url "https://github.com/elentok/dff/releases/download/v0.1.1/dff_Darwin_arm64.tar.gz",
         using: :homebrew_curl,
         cookies: {
           "license" => "accept-backup",
         },
         header: [
-          "X-Version: 0.0.8",
+          "X-Version: 0.1.1",
         ],
         user_agent: "MyApp/1.0 (macOS)",
         data: {
           "format" => "dmg",
           "platform" => "mac",
         }
-      sha256 "d047b0a1983588041942a87365099ff0a3d8ca4b6ef45ef92dabf5fa01f38290"
+      sha256 "98644c414b10fb10e5388aa48f6420d0a07941a6366611b70db2148668bc554a"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/elentok/dff/releases/download/v0.0.8/dff_Linux_x86_64.tar.gz",
+      url "https://github.com/elentok/dff/releases/download/v0.1.1/dff_Linux_x86_64.tar.gz",
         using: :homebrew_curl,
         cookies: {
           "license" => "accept-backup",
         },
         header: [
-          "X-Version: 0.0.8",
+          "X-Version: 0.1.1",
         ],
         user_agent: "MyApp/1.0 (macOS)",
         data: {
           "format" => "dmg",
           "platform" => "mac",
         }
-      sha256 "12032182a404ec2680c949eefb739288b81b2e501204d61d27f82ab3add07dd1"
+      sha256 "14ccaee4804e51b384c4582aa4e7d8a335a3c2414448d3233eafe09643ef96ad"
     end
     on_arm do
-      url "https://github.com/elentok/dff/releases/download/v0.0.8/dff_Linux_arm64.tar.gz",
+      url "https://github.com/elentok/dff/releases/download/v0.1.1/dff_Linux_arm64.tar.gz",
         using: :homebrew_curl,
         cookies: {
           "license" => "accept-backup",
         },
         header: [
-          "X-Version: 0.0.8",
+          "X-Version: 0.1.1",
         ],
         user_agent: "MyApp/1.0 (macOS)",
         data: {
           "format" => "dmg",
           "platform" => "mac",
         }
-      sha256 "94e4d268d9c92d63101ba7ecf5cb0aa3ba82e86fa04ed28861a6d46aa8804037"
+      sha256 "63fe3d3bf41fad9517f1d55523369ec870bb49fe30309473b82bdcdf838f7809"
     end
   end
 

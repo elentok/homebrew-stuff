@@ -3,7 +3,7 @@ cask "colr" do
   name "colr"
   desc "Interactive terminal color editor."
   homepage "https://github.com/elentok/colr"
-  version "0.0.2"
+  version "0.1.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "colr" do
   on_macos do
     on_intel do
       url "https://github.com/elentok/colr/releases/download/v#{version}/colr_Darwin_x86_64.tar.gz"
-      sha256 "90194683882d20ea20021ecef0d459a5e96213e22b06a801bed6902e5d609a71"
+      sha256 "be4fe510ebf1c267d71e730686acc8b18f4ff8c6948f418ed6108130272622ee"
     end
     on_arm do
       url "https://github.com/elentok/colr/releases/download/v#{version}/colr_Darwin_arm64.tar.gz"
-      sha256 "97a73bde6622e4048a01c5d868e08295f0c3b1dfe39cdb6fcbe96c9b1947c6c2"
+      sha256 "6d39ee368126a869e094b096940e79a08a852c64afc5fa3c49cf90f747177e12"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/elentok/colr/releases/download/v#{version}/colr_Linux_x86_64.tar.gz"
-      sha256 "36ea94033edf5699668d6ebd5b990fb15ec2f58733e34b901b177ccfba16a54d"
+      sha256 "3fc1ba3ed017f7b9cec27fb00d38b6ad27f83654db7d42d1ae7bc981c609ae57"
     end
     on_arm do
       url "https://github.com/elentok/colr/releases/download/v#{version}/colr_Linux_arm64.tar.gz"
-      sha256 "137079ed03bd9e0fa090fb3cec6142c18d783231396dd95e6c4a1f77ef8a509a"
+      sha256 "e59d75149c2ab7d0fa45e9972c118eae29475a9f4dcd25422dce2506c1dded28"
     end
   end
 

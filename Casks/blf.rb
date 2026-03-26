@@ -3,7 +3,7 @@ cask "blf" do
   name "blf"
   desc "Blazingly fast misc CLI utilities"
   homepage "https://github.com/elentok/blf"
-  version "0.2.0"
+  version "0.2.1"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "blf" do
   on_macos do
     on_intel do
       url "https://github.com/elentok/blf/releases/download/v#{version}/blf_Darwin_x86_64.tar.gz"
-      sha256 "e53a9476e2f426071a92966501fb9790149a8b970e9e33786154750276ba8bad"
+      sha256 "dec40714a5c30ab1ba2a50ff82a8facdce18ef9027575a955bbee726148e3f74"
     end
     on_arm do
       url "https://github.com/elentok/blf/releases/download/v#{version}/blf_Darwin_arm64.tar.gz"
-      sha256 "dd0a4aa6e7696b45a32abce8a709f02e96f30c9a793f0227af2343aa81c529eb"
+      sha256 "bccc9a7677fd1deeee2cb93e79c7160e4dcfaa8e00d6ca1467ac0bde511b9f95"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/elentok/blf/releases/download/v#{version}/blf_Linux_x86_64.tar.gz"
-      sha256 "6c43d9b548915da827048f4626a9a322123dc929b5b48ec763239db94a165175"
+      sha256 "9a0ea698ef2b79ceff2287abe5417b25df2630a5bcaa87c05fda2fbfae39d33e"
     end
     on_arm do
       url "https://github.com/elentok/blf/releases/download/v#{version}/blf_Linux_arm64.tar.gz"
-      sha256 "5e00396e2d975545e6c3e2cb274f07ebbdb14afd9b3f2be61aa143715d0f2e02"
+      sha256 "2703a1240e98f4d604272fa7706aced7af11700b3228026ccf712dafb242386e"
     end
   end
 

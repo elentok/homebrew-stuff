@@ -3,7 +3,7 @@ cask "gx" do
   name "gx"
   desc "Interactive TUI and CLI helpers for git."
   homepage "https://github.com/elentok/git-helpers/"
-  version "0.6.1"
+  version "0.7.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "gx" do
   on_macos do
     on_intel do
       url "https://github.com/elentok/git-helpers/releases/download/v#{version}/gx_Darwin_x86_64.tar.gz"
-      sha256 "6d3e62a145063327947e7d93939026742348934f8d6314802eb5b4156e9cadcf"
+      sha256 "765fa802e0f4399c5c1ba5a02b5035a545b776b90b1814565f1ad492583900b6"
     end
     on_arm do
       url "https://github.com/elentok/git-helpers/releases/download/v#{version}/gx_Darwin_arm64.tar.gz"
-      sha256 "b739290314cf3db211d2f417178c879930c15fb33a41877f9e1c5fe5b034cb1b"
+      sha256 "e32a54449e428a79c2a9d22fc465a6737f0cd810e2b8f15f8df22ee3d149726b"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/elentok/git-helpers/releases/download/v#{version}/gx_Linux_x86_64.tar.gz"
-      sha256 "6400e5d01af57d597e9172e6e188ad34a37e4597c9599ca58c0375c394e1b9e6"
+      sha256 "6a8d557fd619e62cc8631652ffcef043e458fb76468be1e8c7e82c55b0cbc236"
     end
     on_arm do
       url "https://github.com/elentok/git-helpers/releases/download/v#{version}/gx_Linux_arm64.tar.gz"
-      sha256 "a3fb9cd200e2758bafc0f1c0e07438dea8ead2678c0700b9a7dbd35b8afe9880"
+      sha256 "02449898fc6e473922d13ddea76cacca5f963d7b0f71fdd8576c11856535c172"
     end
   end
 
